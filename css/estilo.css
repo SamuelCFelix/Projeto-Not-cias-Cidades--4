@@ -1,0 +1,248 @@
+/*******Config Padrão*******/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+label{
+    display: block;
+    cursor: pointer;
+    margin: 10px 0px 5px 0px;
+}
+input{
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+h3{
+    font-size: 0.8em;
+    padding: 3px;
+    display: inline;
+    text-transform: uppercase;
+}
+a:link, a:visited, a:active{
+    color: black;
+}
+
+#container-home, #container-brasil, #container-fotos, #container-legislacao{
+    width: 850px;
+    margin: 0 auto;
+}
+
+/*ÁREA DO TOPO*/
+
+#area-topo{
+    height: 180px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo{
+    text-indent: -10000px;
+    height: 100px;
+    background: url(../imagens/logo.png) no-repeat left;
+}
+#area-topo li {
+    height: 34px;
+    margin-top: 25px;
+    float: left;
+    padding: 10px 22px 0px 25px;
+    background: #b10333;
+    border: #9d022e 2px solid;
+    
+}
+#pagina-home .home, #pagina-brasil .brasil, #pagina-internacional .internacional,
+#pagina-economia .economia, #pagina-saude .saude, #pagina-ciencia .ciencia, #pagina-fotos .fotos{
+    background: #e90546;
+}
+#area-topo li a {
+    color: #fff;
+    font-size: 16px;
+}
+#area-topo li:hover{
+    background: #e90546;
+    cursor: pointer;
+}
+/*FIM - ÁREA DO TOPO*/
+
+/*AREA CONTEÚDO SITE*/
+#area-conteudo{
+    width: 850px;
+    height: 900px;
+    margin: 60px 0px 0px 0px;
+    background: #f5f5f5;
+    float: center;
+}
+#container-brasil #area-conteudo{
+    width: 850px;
+    height: 1010px;
+    margin: 60px 0px 0px 0px;
+    background: #f5f5f5;
+    float: center;
+}
+#container-fotos #area-conteudo{
+    width: 850px;
+    height: 1180px;
+    margin: 60px 0px 0px 0px;
+    background: #f5f5f5;
+    float: center;
+}
+#container-legislacao #area-conteudo{
+    width: 850px;
+    height: 850px;
+    margin: 60px 0px 0px 0px;
+    background: #f5f5f5;
+    float: center;
+}
+#area-conteudo h2{
+    color: #fff;
+    background: #294c71;
+    padding: 2px 6px;
+}
+
+#primario{
+    width: 300px;
+    float: left;
+    margin: 0 25px 20px 225px;
+}
+#container-brasil #primario{
+    width: 600px;
+    float: left;
+    margin: 0 25px 20px 225px;
+}
+#container-fotos #primario{
+    width: 850px;
+    float: left;
+    margin: 0 25px 20px 0px;
+}
+#container-legislacao #primario{
+    width: 850px;
+    float: left;
+    margin: 0 25px 20px 0px;
+}
+#caixa-destaque{
+    margin-bottom: 45px;
+}
+#caixa-destaque h3{
+    color: #fff;
+    background-color: #b10333;
+    float: left;
+    margin: 20px 0px 10px 0px;
+}
+#caixa-destaque a{
+    color: #266ebb;
+}
+#caixa-legislacao h2{
+    margin-bottom: 20px;
+}
+#caixa-legislacao img{
+    margin-bottom: 20px;
+}
+#secundario{
+    width: 300px;
+    float: left;
+    margin: 0 0px 20px 0px;
+}
+#caixa-ultima{
+    margin-bottom: 26px;
+}
+#caixa-ultima h3{
+    background-color: #b10333;
+    float: left;
+    margin: 20px 0px 10px 0px;
+}
+#caixa-ultima a{
+    color: #266ebb;
+}
+
+#lateral{
+    width: 200px;
+    float: left;
+    margin: 0px 0px 20px -850px;
+}
+#lateral .caixa-entrevista{
+    background: url(../imagens/fundo-caixa.png);
+    padding-bottom: 25px;
+}
+#lateral li{
+    margin: 20px 0px 20px 10px;
+}
+#lateral li a:hover{
+    padding-left: 20px;
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+#caixa-noticias li {
+    margin: 20px 0px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #c5c4c4;
+}
+#caixa-noticias li:hover {
+    background-color: #eee;
+}
+#caixa-noticias h3 {
+    padding: 0px;
+    color: #266ebb;
+}
+#caixa-noticias li a img{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+#container-brasil #caixa-noticias li a img{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+#container-brasil #caixa-noticias li{
+    padding-bottom: 15px;
+}
+#container-fotos #caixa-noticias li a img{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+#container-fotos #caixa-noticias li{
+    padding-bottom: 15px;
+}
+
+/*FIM AREA CONTEÚDO SITE*/
+
+/*AREA RODAPÉ SITE*/
+#area-rodape{
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+#rodape{
+    width: 850px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+}
+/*FIM AREA RODAPÉ SITE*/
